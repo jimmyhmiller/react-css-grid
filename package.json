@@ -13,8 +13,7 @@
     "clean": "rm -rf dist/*",
     "release": "yarn prepublishOnly && yarn test && yarn lint",
     "prepublishOnly": "yarn && yarn clean && yarn build",
-    "snyk-protect": "snyk-protect",
-    "prepare": "yarn run snyk-protect"
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
